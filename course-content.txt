@@ -1,0 +1,148 @@
+---------------------------------------------------------------------------------
+                        GO Language Course Content
+---------------------------------------------------------------------------------
+Target audience : beginner- and intermediate-level developers in the Go programming language.
+Prerequisite    : No knowledge of any language, nor design patterns is expected.
+Course Composure: 80% practical and 20% theory
+
+=======================
+Day 1 - 10th May, 2022
+=======================
+    Chapter 01: Introduction
+                Necessity & importance of Golang
+                Installation setup 
+                comment operators 
+                Keywords & Identifiers
+                Data Types in Golang
+
+    Chapter 02: Variables 
+                Variables & Declarations
+                Constants
+                Overflow 
+                Enumerations 
+                Zero values 
+                Type conversions
+                Custom Type Creation
+                Run-Time Input
+
+    Chapter 03: Basics
+                Arithmetic Operations
+                    Arithmetic operators
+                    type casting
+                    complex numbers
+                    operator precedence 
+                String Operations
+                    importance of quotes - single, double and tild quotes
+                    string operations 
+                    Escape sequences
+                    print type 
+                    string formatting
+=======================
+Day 2 - 11th May, 2022
+=======================
+                    String immutability
+                    string attributes 
+                    utf strings 
+                    number parsing 
+                    bytes and runes
+
+    Chapter 04: Language Components
+                    Relational Operations 
+                    Logical Operations
+                    Boolean Operations
+                    Bitwise Operations 
+                    Conditions
+=======================
+Day 3 - 12th May, 2022
+=======================
+                    Loops 
+                    Range 
+                    Init
+
+    Chapter 05: MoreTypes
+                    Arrays 
+                    Slices
+                    Pointers
+                    Maps
+                    Structs
+=======================
+Day 4 - 13th May, 2022
+=======================
+                    Methods
+                    Interfaces
+
+    Chapter 06: Error Handling
+                    Defer 
+                    panic 
+                    recover
+                    create errors
+
+    Chapter 07: Functions
+                    Functions signature
+                    Functions with args 
+                    swapping 
+                    naked returns 
+                    pointers as returns
+                    variadic functions 
+                    Global vs Local Scope 
+                    Function Literals, 
+                    Closure, Generator, 
+                    Recursions 
+                    Higher-Order Functions 
+
+    Chapter 08: Goroutines, Channels, Concurrency
+                    Goroutines
+                    Blocking Execution 
+                        - with time.sleep
+                        - with fmt.Scanf
+                        - with runtime.Gosched()
+                        - with channels 
+                    Channels
+                        - Unbuffered, Buffered and New Channels
+                        - Passing Unidirectional channels to functions 
+                        - channel pipelines
+                        - Channel Synchronization 
+                        - Select & timeout select 
+                        - range over channels 
+=======================
+Day 5 - 14th May, 2022
+=======================
+                    Waitgroups
+    Chapter 09: Modules
+                    OS 
+                    base64-encoding
+                    time 
+                    math 
+                    rand 
+                    Crypto 
+                    bufio 
+                    container
+                    sort
+                    hash & Cryptography 
+                    StrConv
+                    runtime
+                    context
+                    reflect
+                    
+                    Creating Custom Packages
+
+    Chapter 10: File Operations
+                    UnStructured- text, pdf files
+                    Structured - csv, xml, json, yaml 
+                    ZipFiles - .zip, .tar files
+            
+    Chapter 11: Logging
+                    Built-in logger 
+                    Logrus
+
+    Chapter 12: Code Quality
+                    unit testing, 
+                        table driven tests, 
+                        asserts
+                    coverage, profiling, benchmarking
+
+    Chapter 13: Regular Expressions
+    
+    Chapter 14: Web Services
+                    Consuming REST API 
+                    Creating REST API
